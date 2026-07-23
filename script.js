@@ -1,3 +1,9 @@
+import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+
+const SUPABASE_URL = "https://ahaybzcmpcuhjlavnpln.supabase.co";
+const SUPABASE_ANON_KEY = "তোমার sb_publishable_... key";
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const SUPABASE_URL = "https://ahaybzcmpcuhjlavnpln.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_nWHvtntUuZeU4vRfpoOHLQ_l4T0oa6t";
 let balance = 0;
