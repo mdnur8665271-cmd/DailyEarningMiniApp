@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Earning Mini App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>💰 Daily Earning</h1>
+
+    <div class="card">
+        <h2>Balance</h2>
+        <p id="balance">0 ৳</p>
+    </div>
+
+    <div class="card">
+        <h2>Today's Progress</h2>
+        <p>📺 Ads Watched: <span id="adsCount">0</span>/20</p>
+        <p>💵 Reward per Ad: 2 ৳</p>
+        <p>📈 Today's Earnings: <span id="todayEarn">0</span> ৳</p>
+    </div>
+
+    <button id="watchAd">🎥 Watch Ad</button>
+
+    <button id="claimReward" disabled>🎁 Claim Reward</button>
+
+    <p id="status">Watch an ad to earn rewards.</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
