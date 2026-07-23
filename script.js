@@ -1,3 +1,5 @@
+const SUPABASE_URL = "https://ahaybzcmpcuhjlavnpln.supabase.co";
+const SUPABASE_ANON_KEY = "এখানে তোমার sb_publishable_... key বসবে";
 let balance = 0;
 let adsWatched = 0;
 let todayEarn = 0;
